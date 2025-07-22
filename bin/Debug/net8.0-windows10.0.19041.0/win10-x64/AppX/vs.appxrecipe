@@ -10,14 +10,14 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>com.companyname.chatappui</PackageIdentityName>
     <PackageIdentityPublisher>CN=User Name</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\felix\source\repos\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\felix\source\repos\ChatAppUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
+    <LayoutDir>C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
     <RegisteredManifestChecksum>1AF6DC119692BDC5D08FE08ACDFBCEB19DDC5BA36F49E03C648A862979B09995</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>com.companyname.chatappui_1.0.0.1_x64__9zz4h110yvjzm</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>com.companyname.chatappui_9zz4h110yvjzm!App</RegisteredUserModeAppID>
@@ -26,268 +26,268 @@
     <RegisteredVersion>1.0.0.1</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\felix\source\repos\ChatAppUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-07-21T16:29:40.611</Modified>
+      <Modified>2025-07-22T13:25:04.637</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
+    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-07-21T16:29:40.525</Modified>
+      <Modified>2025-07-22T13:06:16.787</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ChatAppUI.runtimeconfig.json">
+    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ChatAppUI.runtimeconfig.json">
       <PackagePath>ChatAppUI.runtimeconfig.json</PackagePath>
-      <Modified>2025-07-20T14:38:10.781</Modified>
+      <Modified>2025-07-22T11:44:12.952</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ChatAppUI.dll">
+    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ChatAppUI.dll">
       <PackagePath>ChatAppUI.dll</PackagePath>
-      <Modified>2025-07-21T16:29:40.059</Modified>
+      <Modified>2025-07-22T13:25:04.476</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
+    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>ChatAppUI.exe</PackagePath>
-      <Modified>2025-07-21T16:29:40.062</Modified>
+      <Modified>2025-07-22T13:25:04.479</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\Resources\Raw\AboutAssets.txt">
+    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
       <Modified>2025-07-20T14:36:56.821</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
       <Modified>2025-07-20T14:37:21.892</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
       <Modified>2025-07-20T14:37:21.903</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
       <Modified>2025-07-20T14:37:21.920</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
       <Modified>2025-07-20T14:37:21.941</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
       <Modified>2025-07-20T14:37:22.035</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
+    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
       <Modified>2025-07-20T14:36:56.816</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
+    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
       <Modified>2025-07-20T14:36:56.817</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
+    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2025-07-20T14:37:22.941</Modified>
+      <Modified>2025-07-22T11:34:53.215</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2025-07-20T14:37:22.936</Modified>
+      <Modified>2025-07-22T11:34:53.211</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2025-07-20T14:37:22.936</Modified>
+      <Modified>2025-07-22T11:34:53.211</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2025-07-20T14:37:22.936</Modified>
+      <Modified>2025-07-22T11:34:53.210</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2025-07-20T14:37:22.936</Modified>
+      <Modified>2025-07-22T11:34:53.210</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2025-07-20T14:37:22.935</Modified>
+      <Modified>2025-07-22T11:34:53.210</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2025-07-20T14:37:22.939</Modified>
+      <Modified>2025-07-22T11:34:53.213</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2025-07-20T14:37:22.939</Modified>
+      <Modified>2025-07-22T11:34:53.213</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2025-07-20T14:37:22.939</Modified>
+      <Modified>2025-07-22T11:34:53.213</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2025-07-20T14:37:22.939</Modified>
+      <Modified>2025-07-22T11:34:53.213</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2025-07-20T14:37:22.939</Modified>
+      <Modified>2025-07-22T11:34:53.213</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2025-07-20T14:37:22.939</Modified>
+      <Modified>2025-07-22T11:34:53.214</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2025-07-20T14:37:22.939</Modified>
+      <Modified>2025-07-22T11:34:53.214</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2025-07-20T14:37:22.939</Modified>
+      <Modified>2025-07-22T11:34:53.213</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2025-07-20T14:37:22.939</Modified>
+      <Modified>2025-07-22T11:34:53.213</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2025-07-20T14:37:22.939</Modified>
+      <Modified>2025-07-22T11:34:53.213</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2025-07-20T14:37:22.940</Modified>
+      <Modified>2025-07-22T11:34:53.215</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2025-07-20T14:37:22.940</Modified>
+      <Modified>2025-07-22T11:34:53.215</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2025-07-20T14:37:22.940</Modified>
+      <Modified>2025-07-22T11:34:53.214</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2025-07-20T14:37:22.940</Modified>
+      <Modified>2025-07-22T11:34:53.214</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2025-07-20T14:37:22.940</Modified>
+      <Modified>2025-07-22T11:34:53.214</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2025-07-20T14:37:22.940</Modified>
+      <Modified>2025-07-22T11:34:53.214</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2025-07-20T14:37:22.940</Modified>
+      <Modified>2025-07-22T11:34:53.214</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2025-07-20T14:37:22.940</Modified>
+      <Modified>2025-07-22T11:34:53.214</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2025-07-20T14:37:22.940</Modified>
+      <Modified>2025-07-22T11:34:53.214</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2025-07-20T14:37:22.940</Modified>
+      <Modified>2025-07-22T11:34:53.214</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2025-07-20T14:37:22.937</Modified>
+      <Modified>2025-07-22T11:34:53.212</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2025-07-20T14:37:22.937</Modified>
+      <Modified>2025-07-22T11:34:53.212</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2025-07-20T14:37:22.937</Modified>
+      <Modified>2025-07-22T11:34:53.211</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2025-07-20T14:37:22.937</Modified>
+      <Modified>2025-07-22T11:34:53.211</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2025-07-20T14:37:22.937</Modified>
+      <Modified>2025-07-22T11:34:53.211</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2025-07-20T14:37:22.938</Modified>
+      <Modified>2025-07-22T11:34:53.212</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2025-07-20T14:37:22.938</Modified>
+      <Modified>2025-07-22T11:34:53.212</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2025-07-20T14:37:22.938</Modified>
+      <Modified>2025-07-22T11:34:53.212</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2025-07-20T14:37:22.938</Modified>
+      <Modified>2025-07-22T11:34:53.212</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2025-07-20T14:37:22.937</Modified>
+      <Modified>2025-07-22T11:34:53.212</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2025-07-20T14:37:22.938</Modified>
+      <Modified>2025-07-22T11:34:53.213</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2025-07-20T14:37:22.938</Modified>
+      <Modified>2025-07-22T11:34:53.213</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2025-07-20T14:37:22.938</Modified>
+      <Modified>2025-07-22T11:34:53.213</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2025-07-20T14:37:22.938</Modified>
+      <Modified>2025-07-22T11:34:53.212</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2025-07-20T14:37:22.938</Modified>
+      <Modified>2025-07-22T11:34:53.212</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2025-07-20T14:37:22.937</Modified>
+      <Modified>2025-07-22T11:34:53.211</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2025-07-20T14:37:22.937</Modified>
+      <Modified>2025-07-22T11:34:53.211</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2025-07-20T14:37:22.936</Modified>
+      <Modified>2025-07-22T11:34:53.211</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2025-07-20T14:37:22.936</Modified>
+      <Modified>2025-07-22T11:34:53.211</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2025-07-20T14:37:22.936</Modified>
+      <Modified>2025-07-22T11:34:53.211</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2025-07-20T14:37:22.941</Modified>
+      <Modified>2025-07-22T11:34:53.210</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2025-07-20T14:37:22.941</Modified>
+      <Modified>2025-07-22T11:34:53.210</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2025-07-20T14:37:22.941</Modified>
+      <Modified>2025-07-22T11:34:53.210</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2025-07-20T14:37:22.941</Modified>
+      <Modified>2025-07-22T11:34:53.210</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2025-07-20T14:37:22.941</Modified>
+      <Modified>2025-07-22T11:34:53.210</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ChatAppUI.deps.json">
+    <AppxPackagedFile Include="C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ChatAppUI.deps.json">
       <PackagePath>ChatAppUI.deps.json</PackagePath>
-      <Modified>2025-07-21T16:29:40.438</Modified>
+      <Modified>2025-07-22T13:06:16.632</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\felix\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.34\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>

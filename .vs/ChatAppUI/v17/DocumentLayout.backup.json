@@ -1,42 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\felix\\source\\repos\\ChatAppUI\\",
+  "WorkspaceRootPath": "C:\\Users\\felix\\source\\repos\\ChatAppUI\\ChatAppUI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C6EE650B-4BBD-4BA3-9987-831B7C366AFC}|ChatAppUI.csproj|c:\\users\\felix\\source\\repos\\chatappui\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C6EE650B-4BBD-4BA3-9987-831B7C366AFC}|ChatAppUI.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6EE650B-4BBD-4BA3-9987-831B7C366AFC}|ChatAppUI.csproj|c:\\users\\felix\\source\\repos\\chatappui\\tcpmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C6EE650B-4BBD-4BA3-9987-831B7C366AFC}|ChatAppUI.csproj|c:\\users\\felix\\source\\repos\\chatappui\\chatappui\\tcpmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C6EE650B-4BBD-4BA3-9987-831B7C366AFC}|ChatAppUI.csproj|solutionrelative:tcpmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6EE650B-4BBD-4BA3-9987-831B7C366AFC}|ChatAppUI.csproj|c:\\users\\felix\\source\\repos\\chatappui\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6EE650B-4BBD-4BA3-9987-831B7C366AFC}|ChatAppUI.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C6EE650B-4BBD-4BA3-9987-831B7C366AFC}|ChatAppUI.csproj|c:\\users\\felix\\source\\repos\\chatappui\\chatappui\\chatpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6EE650B-4BBD-4BA3-9987-831B7C366AFC}|ChatAppUI.csproj|solutionrelative:chatpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6EE650B-4BBD-4BA3-9987-831B7C366AFC}|ChatAppUI.csproj|c:\\users\\felix\\source\\repos\\chatappui\\objects\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6EE650B-4BBD-4BA3-9987-831B7C366AFC}|ChatAppUI.csproj|solutionrelative:objects\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C6EE650B-4BBD-4BA3-9987-831B7C366AFC}|ChatAppUI.csproj|c:\\users\\felix\\source\\repos\\chatappui\\chatappui\\chatpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C6EE650B-4BBD-4BA3-9987-831B7C366AFC}|ChatAppUI.csproj|solutionrelative:chatpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6EE650B-4BBD-4BA3-9987-831B7C366AFC}|ChatAppUI.csproj|c:\\users\\felix\\source\\repos\\chatappui\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C6EE650B-4BBD-4BA3-9987-831B7C366AFC}|ChatAppUI.csproj|c:\\users\\felix\\source\\repos\\chatappui\\chatappui\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C6EE650B-4BBD-4BA3-9987-831B7C366AFC}|ChatAppUI.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6EE650B-4BBD-4BA3-9987-831B7C366AFC}|ChatAppUI.csproj|c:\\users\\felix\\source\\repos\\chatappui\\chatappui\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C6EE650B-4BBD-4BA3-9987-831B7C366AFC}|ChatAppUI.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6EE650B-4BBD-4BA3-9987-831B7C366AFC}|ChatAppUI.csproj|c:\\users\\felix\\source\\repos\\chatappui\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C6EE650B-4BBD-4BA3-9987-831B7C366AFC}|ChatAppUI.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6EE650B-4BBD-4BA3-9987-831B7C366AFC}|ChatAppUI.csproj|c:\\users\\felix\\source\\repos\\chatappui\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6EE650B-4BBD-4BA3-9987-831B7C366AFC}|ChatAppUI.csproj|solutionrelative:appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6EE650B-4BBD-4BA3-9987-831B7C366AFC}|ChatAppUI.csproj|c:\\users\\felix\\source\\repos\\chatappui\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6EE650B-4BBD-4BA3-9987-831B7C366AFC}|ChatAppUI.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6EE650B-4BBD-4BA3-9987-831B7C366AFC}|ChatAppUI.csproj|c:\\users\\felix\\source\\repos\\chatappui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C6EE650B-4BBD-4BA3-9987-831B7C366AFC}|ChatAppUI.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{C6EE650B-4BBD-4BA3-9987-831B7C366AFC}|ChatAppUI.csproj|c:\\users\\felix\\source\\repos\\chatappui\\chatappui\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6EE650B-4BBD-4BA3-9987-831B7C366AFC}|ChatAppUI.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,113 +46,81 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Message.cs",
-              "DocumentMoniker": "C:\\Users\\felix\\source\\repos\\ChatAppUI\\Objects\\Message.cs",
-              "RelativeDocumentMoniker": "Objects\\Message.cs",
-              "ToolTip": "C:\\Users\\felix\\source\\repos\\ChatAppUI\\Objects\\Message.cs",
-              "RelativeToolTip": "Objects\\Message.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T16:23:11.993Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\felix\\source\\repos\\ChatAppUI\\MainPage.xaml.cs",
-              "RelativeDocumentMoniker": "MainPage.xaml.cs",
-              "ToolTip": "C:\\Users\\felix\\source\\repos\\ChatAppUI\\MainPage.xaml.cs",
-              "RelativeToolTip": "MainPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-20T14:39:37.752Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "TcpManager.cs",
-              "DocumentMoniker": "C:\\Users\\felix\\source\\repos\\ChatAppUI\\TcpManager.cs",
-              "RelativeDocumentMoniker": "TcpManager.cs",
-              "ToolTip": "C:\\Users\\felix\\source\\repos\\ChatAppUI\\TcpManager.cs",
-              "RelativeToolTip": "TcpManager.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAABAAAAAPAAAAAAAAAA==",
+              "Title": "ChatPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\felix\\source\\repos\\ChatAppUI\\ChatAppUI\\ChatPage.xaml.cs",
+              "RelativeDocumentMoniker": "ChatPage.xaml.cs",
+              "ToolTip": "C:\\Users\\felix\\source\\repos\\ChatAppUI\\ChatAppUI\\ChatPage.xaml.cs",
+              "RelativeToolTip": "ChatPage.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-20T19:42:27.231Z",
+              "WhenOpened": "2025-07-22T12:56:20.116Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MauiProgram.cs",
-              "DocumentMoniker": "C:\\Users\\felix\\source\\repos\\ChatAppUI\\MauiProgram.cs",
-              "RelativeDocumentMoniker": "MauiProgram.cs",
-              "ToolTip": "C:\\Users\\felix\\source\\repos\\ChatAppUI\\MauiProgram.cs",
-              "RelativeToolTip": "MauiProgram.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-20T19:40:41.738Z"
+              "Title": "ChatPage.xaml",
+              "DocumentMoniker": "C:\\Users\\felix\\source\\repos\\ChatAppUI\\ChatAppUI\\ChatPage.xaml",
+              "RelativeDocumentMoniker": "ChatPage.xaml",
+              "ToolTip": "C:\\Users\\felix\\source\\repos\\ChatAppUI\\ChatAppUI\\ChatPage.xaml",
+              "RelativeToolTip": "ChatPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-22T12:56:16.166Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "MainPage.xaml",
-              "DocumentMoniker": "C:\\Users\\felix\\source\\repos\\ChatAppUI\\MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\felix\\source\\repos\\ChatAppUI\\ChatAppUI\\MainPage.xaml",
               "RelativeDocumentMoniker": "MainPage.xaml",
-              "ToolTip": "C:\\Users\\felix\\source\\repos\\ChatAppUI\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\felix\\source\\repos\\ChatAppUI\\ChatAppUI\\MainPage.xaml",
               "RelativeToolTip": "MainPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-20T14:39:11.339Z",
+              "WhenOpened": "2025-07-22T12:04:58.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\felix\\source\\repos\\ChatAppUI\\ChatAppUI\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\felix\\source\\repos\\ChatAppUI\\ChatAppUI\\MainPage.xaml.cs",
+              "RelativeToolTip": "MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T11:35:09.365Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "AppShell.xaml",
-              "DocumentMoniker": "C:\\Users\\felix\\source\\repos\\ChatAppUI\\AppShell.xaml",
-              "RelativeDocumentMoniker": "AppShell.xaml",
-              "ToolTip": "C:\\Users\\felix\\source\\repos\\ChatAppUI\\AppShell.xaml",
-              "RelativeToolTip": "AppShell.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-20T14:37:42.688Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AppShell.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\felix\\source\\repos\\ChatAppUI\\AppShell.xaml.cs",
-              "RelativeDocumentMoniker": "AppShell.xaml.cs",
-              "ToolTip": "C:\\Users\\felix\\source\\repos\\ChatAppUI\\AppShell.xaml.cs",
-              "RelativeToolTip": "AppShell.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAZAAAAAAAAAA==",
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\felix\\source\\repos\\ChatAppUI\\ChatAppUI\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MauiProgram.cs",
+              "ToolTip": "C:\\Users\\felix\\source\\repos\\ChatAppUI\\ChatAppUI\\MauiProgram.cs",
+              "RelativeToolTip": "MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-20T14:37:41.229Z"
+              "WhenOpened": "2025-07-22T11:35:00.015Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\felix\\source\\repos\\ChatAppUI\\App.xaml.cs",
-              "RelativeDocumentMoniker": "App.xaml.cs",
-              "ToolTip": "C:\\Users\\felix\\source\\repos\\ChatAppUI\\App.xaml.cs",
-              "RelativeToolTip": "App.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAMAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "TcpManager.cs",
+              "DocumentMoniker": "C:\\Users\\felix\\source\\repos\\ChatAppUI\\ChatAppUI\\TcpManager.cs",
+              "RelativeDocumentMoniker": "TcpManager.cs",
+              "ToolTip": "C:\\Users\\felix\\source\\repos\\ChatAppUI\\ChatAppUI\\TcpManager.cs",
+              "RelativeToolTip": "TcpManager.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAQwFAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-20T14:37:30.617Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\felix\\source\\repos\\ChatAppUI\\App.xaml",
-              "RelativeDocumentMoniker": "App.xaml",
-              "ToolTip": "C:\\Users\\felix\\source\\repos\\ChatAppUI\\App.xaml",
-              "RelativeToolTip": "App.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-20T14:37:26.038Z"
+              "WhenOpened": "2025-07-22T11:34:58.588Z",
+              "EditorCaption": ""
             }
           ]
         }
