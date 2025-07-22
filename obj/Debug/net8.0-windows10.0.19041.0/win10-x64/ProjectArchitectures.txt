@@ -1,0 +1,1 @@
+C:\Users\felix\source\repos\ChatAppUI\ChatAppUI.csproj;x64
