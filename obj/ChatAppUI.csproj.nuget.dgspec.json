@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\felix\\source\\repos\\ChatAppUI\\ChatAppUI.csproj": {}
+    "C:\\Users\\felix\\source\\repos\\ChatAppUI\\ChatAppUI\\ChatAppUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\felix\\source\\repos\\ChatAppUI\\ChatAppUI.csproj": {
+    "C:\\Users\\felix\\source\\repos\\ChatAppUI\\ChatAppUI\\ChatAppUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\felix\\source\\repos\\ChatAppUI\\ChatAppUI.csproj",
+        "projectUniqueName": "C:\\Users\\felix\\source\\repos\\ChatAppUI\\ChatAppUI\\ChatAppUI.csproj",
         "projectName": "ChatAppUI",
-        "projectPath": "C:\\Users\\felix\\source\\repos\\ChatAppUI\\ChatAppUI.csproj",
+        "projectPath": "C:\\Users\\felix\\source\\repos\\ChatAppUI\\ChatAppUI\\ChatAppUI.csproj",
         "packagesPath": "C:\\Users\\felix\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\felix\\source\\repos\\ChatAppUI\\obj\\",
+        "outputPath": "C:\\Users\\felix\\source\\repos\\ChatAppUI\\ChatAppUI\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [

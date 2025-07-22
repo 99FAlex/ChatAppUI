@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ChatAppUI.MainPage">
     <Grid>
-        <Label x:Name="TestLabel">sd</Label>
+        <Label x:Name="TestLabel" Text="dfiudfo"></Label>
         <Entry x:Name="message" Placeholder="test" VerticalOptions="End" HeightRequest="20" Margin="30,0,150,30" BackgroundColor="DimGrey" TextColor="AliceBlue"></Entry>
 
         <Button Clicked="onSend" Text="senden" HorizontalOptions="{OnPlatform WinUI=End, Android=Fill}" VerticalOptions="End" Margin="{OnPlatform WinUI=30, Android=5}" />

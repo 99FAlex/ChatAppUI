@@ -1,6 +1,7 @@
 ﻿using ChatAppUI.Objects;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Net.Sockets;
 using System.Text;
@@ -10,9 +11,11 @@ namespace ChatAppUI
 {
     class TcpManager
     {
-        public void sendMessage(string message)
-        {
+        private static readonly Encoding LocalEncoding = Encoding.UTF8;
 
+        public string sendMessage(string message)
+        {
+            
 
             try
             {
@@ -29,6 +32,7 @@ namespace ChatAppUI
 
 
                 Stream stm = tcpclnt.GetStream();
+                
 
                 ASCIIEncoding asen = new ASCIIEncoding();
                 byte[] ba = asen.GetBytes(str);
@@ -36,18 +40,17 @@ namespace ChatAppUI
 
                 stm.Write(ba, 0, ba.Length);
 
-                byte[] bb = new byte[100];
-                int k = stm.Read(bb, 0, 100);
-
-                for (int i = 0; i < k; i++)
-                    Console.Write(Convert.ToChar(bb[i]));
-
+                var buffer = new byte[stm.Length];
+                stm.Read(buffer, 0, (int)stm.Length);
+                string result = System.Text.Encoding.UTF8.GetString(buffer);
+                return result;
                 tcpclnt.Close();
             }
 
             catch (Exception e)
             {
                 Console.WriteLine("Error..... " + e.StackTrace);
+                return "Error | " + e.StackTrace;
             }
         }
 
