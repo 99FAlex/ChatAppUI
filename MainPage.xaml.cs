@@ -5,36 +5,28 @@ namespace ChatAppUI
 {
     public partial class MainPage : ContentPage
     {
-        TcpManager tcpManager = new TcpManager();
-        Thread thread;
+
+        ChatPage chatPage = new ChatPage();
 
         public MainPage()
         {
             InitializeComponent();
-        }
+            Routing.RegisterRoute(nameof(ChatPage), typeof(ChatPage));
 
-        private void onSend(object sender, EventArgs e)
+        }
+        private void onSwitch(object sender, EventArgs e)
         {
-            thread = new Thread(sendToTcpManager);
-            thread.Start();
+            chatPage.startReciever();
+            GoToAnotherPage();
         }
 
-        public void changeTheTestLabel(String message)
+
+        private async void GoToAnotherPage()
         {
-            TestLabel.Text = message;
-
+            await Shell.Current.GoToAsync(nameof(ChatPage));
         }
 
-        private void sendToTcpManager()
-        {
-            string returnMsg = tcpManager.sendMessage(message.Text);
-            MainThread.BeginInvokeOnMainThread(() =>
-            {
-                TestLabel.Text = returnMsg;
-            });
-            
-            thread.Join();
-        }
+
 
     }
 

@@ -1,6 +1,7 @@
 ﻿using ChatAppUI.Objects;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Net.Sockets;
@@ -13,20 +14,16 @@ namespace ChatAppUI
     {
         private static readonly Encoding LocalEncoding = Encoding.UTF8;
 
-        public string sendMessage(string message)
+        public void sendMessage(string message)
         {
             
 
             try
             {
                 TcpClient tcpclnt = new TcpClient();
-                Console.WriteLine("Connecting.....");
-
                 tcpclnt.Connect("127.0.0.1", 8001);
                 // use the ipaddress as in the server program
 
-                Console.WriteLine("Connected");
-                Console.Write("Enter the string to be transmitted : ");
 
                 String str = message;
 
@@ -36,22 +33,53 @@ namespace ChatAppUI
 
                 ASCIIEncoding asen = new ASCIIEncoding();
                 byte[] ba = asen.GetBytes(str);
-                Console.WriteLine("Transmitting.....");
 
                 stm.Write(ba, 0, ba.Length);
 
-                var buffer = new byte[stm.Length];
-                stm.Read(buffer, 0, (int)stm.Length);
-                string result = System.Text.Encoding.UTF8.GetString(buffer);
-                return result;
-                tcpclnt.Close();
+
+
+                
             }
 
             catch (Exception e)
             {
-                Console.WriteLine("Error..... " + e.StackTrace);
-                return "Error | " + e.StackTrace;
+                MainThread.BeginInvokeOnMainThread(() =>
+                {
+                Debug.WriteLine("Error || " + e.StackTrace);
+                }); 
             }
+        }
+
+
+        public String messageReciever()
+        {
+            try
+            {
+                TcpClient tcpclnt = new TcpClient();
+                tcpclnt.Connect("127.0.0.1", 8001);
+                // use the ipaddress as in the server program
+                var buffer = new byte[256];
+
+                Stream stm = tcpclnt.GetStream();
+
+
+                    Int32 bytes = stm.Read(buffer, 0, buffer.Length);
+                    string result = System.Text.Encoding.ASCII.GetString(buffer, 0, bytes);
+                    return result;
+
+                
+
+            }
+            catch (Exception e)
+            {
+                return "Fehler";
+            }
+        }
+        public void test()
+        {
+            ChatPage chatPage = new ChatPage();
+
+            chatPage.test();
         }
 
 
