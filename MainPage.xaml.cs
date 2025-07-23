@@ -6,7 +6,6 @@ namespace ChatAppUI
     public partial class MainPage : ContentPage
     {
 
-        ChatPage chatPage = new ChatPage();
 
         public MainPage()
         {
@@ -16,8 +15,16 @@ namespace ChatAppUI
         }
         private void onSwitch(object sender, EventArgs e)
         {
-            chatPage.startReciever();
-            GoToAnotherPage();
+            if (Username.Text != null)
+            {
+                TcpManager.name = Username.Text;
+                GoToAnotherPage();
+            }
+            else
+            {
+                Error.IsVisible = true;
+                Error.Text = "Error Username is required";
+            }
         }
 
 

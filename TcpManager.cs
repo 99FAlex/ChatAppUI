@@ -12,76 +12,84 @@ namespace ChatAppUI
 {
     class TcpManager
     {
+        public static string name;
         private static readonly Encoding LocalEncoding = Encoding.UTF8;
+        private TcpClient tcpClient = new TcpClient(); // Single instance
+        private NetworkStream stream; // Single instance
 
-        public void sendMessage(string message)
+
+
+        public async Task ConnectAsync(string ipAddress, int port)
         {
-            
+            try
+            {
+                await tcpClient.ConnectAsync(ipAddress, port);
+                stream = tcpClient.GetStream();
+                Debug.WriteLine("Connected to server.");
+            }
+            catch (Exception e)
+            {
+
+            }
+        }
+
+        public async Task SendMessageAsync(string message)
+        {
+            if (stream == null || !tcpClient.Connected)
+            {
+                Debug.WriteLine("Not connected. Cannot send message.");
+                return;
+            }
 
             try
             {
-                TcpClient tcpclnt = new TcpClient();
-                tcpclnt.Connect("127.0.0.1", 8001);
-                // use the ipaddress as in the server program
-
-
-                String str = message;
-
-
-                Stream stm = tcpclnt.GetStream();
-                
-
-                ASCIIEncoding asen = new ASCIIEncoding();
-                byte[] ba = asen.GetBytes(str);
-
-                stm.Write(ba, 0, ba.Length);
-
-
-
-                
+                byte[] data = LocalEncoding.GetBytes(message);
+                await stream.WriteAsync(data, 0, data.Length);
+                Debug.WriteLine("Message sent: " + message);
             }
-
             catch (Exception e)
             {
                 MainThread.BeginInvokeOnMainThread(() =>
                 {
-                Debug.WriteLine("Error || " + e.StackTrace);
-                }); 
+                    Debug.WriteLine("Send Error || " + e.Message);
+                });
             }
         }
 
-
-        public String messageReciever()
+        public async Task<string> ReceiveMessageAsync()
         {
+            if (stream == null || !tcpClient.Connected)
+            {
+                Debug.WriteLine("Not connected. Cannot receive message.");
+                return "Error: Not connected";
+            }
+
             try
             {
-                TcpClient tcpclnt = new TcpClient();
-                tcpclnt.Connect("127.0.0.1", 8001);
-                // use the ipaddress as in the server program
-                var buffer = new byte[256];
-
-                Stream stm = tcpclnt.GetStream();
-
-
-                    Int32 bytes = stm.Read(buffer, 0, buffer.Length);
-                    string result = System.Text.Encoding.ASCII.GetString(buffer, 0, bytes);
-                    return result;
-
-                
-
+                byte[] buffer = new byte[256]; // Or a larger buffer as needed
+                int bytesRead = await stream.ReadAsync(buffer, 0, buffer.Length);
+                if (bytesRead > 0)
+                {
+                    return LocalEncoding.GetString(buffer, 0, bytesRead);
+                }
+                return string.Empty; // No bytes read
             }
             catch (Exception e)
             {
-                return "Fehler";
+                /*MainThread.BeginInvokeOnMainThread(() =>
+                {
+                    Debug.WriteLine("Receive Error || " + e.Message);
+                });*/
+                return "Fehler beim Empfangen";
             }
         }
-        public void test()
+
+        public void Disconnect()
         {
-            ChatPage chatPage = new ChatPage();
-
-            chatPage.test();
+            stream?.Dispose();
+            tcpClient?.Close();
+            Debug.WriteLine("Disconnected.");
         }
-
-
     }
 }
+
