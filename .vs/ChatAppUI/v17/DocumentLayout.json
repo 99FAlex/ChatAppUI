@@ -3,24 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\felix\\source\\repos\\ChatAppUI\\ChatAppUI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C6EE650B-4BBD-4BA3-9987-831B7C366AFC}|ChatAppUI.csproj|c:\\users\\felix\\source\\repos\\chatappui\\chatappui\\chatpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6EE650B-4BBD-4BA3-9987-831B7C366AFC}|ChatAppUI.csproj|solutionrelative:chatpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6EE650B-4BBD-4BA3-9987-831B7C366AFC}|ChatAppUI.csproj|c:\\users\\felix\\source\\repos\\chatappui\\chatappui\\tcpmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6EE650B-4BBD-4BA3-9987-831B7C366AFC}|ChatAppUI.csproj|solutionrelative:tcpmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6EE650B-4BBD-4BA3-9987-831B7C366AFC}|ChatAppUI.csproj|c:\\users\\felix\\source\\repos\\chatappui\\chatappui\\chatpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C6EE650B-4BBD-4BA3-9987-831B7C366AFC}|ChatAppUI.csproj|solutionrelative:chatpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{C6EE650B-4BBD-4BA3-9987-831B7C366AFC}|ChatAppUI.csproj|c:\\users\\felix\\source\\repos\\chatappui\\chatappui\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C6EE650B-4BBD-4BA3-9987-831B7C366AFC}|ChatAppUI.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C6EE650B-4BBD-4BA3-9987-831B7C366AFC}|ChatAppUI.csproj|c:\\users\\felix\\source\\repos\\chatappui\\chatappui\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C6EE650B-4BBD-4BA3-9987-831B7C366AFC}|ChatAppUI.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6EE650B-4BBD-4BA3-9987-831B7C366AFC}|ChatAppUI.csproj|c:\\users\\felix\\source\\repos\\chatappui\\chatappui\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C6EE650B-4BBD-4BA3-9987-831B7C366AFC}|ChatAppUI.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{C6EE650B-4BBD-4BA3-9987-831B7C366AFC}|ChatAppUI.csproj|c:\\users\\felix\\source\\repos\\chatappui\\chatappui\\chatpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C6EE650B-4BBD-4BA3-9987-831B7C366AFC}|ChatAppUI.csproj|solutionrelative:chatpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6EE650B-4BBD-4BA3-9987-831B7C366AFC}|ChatAppUI.csproj|c:\\users\\felix\\source\\repos\\chatappui\\chatappui\\chatappui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C6EE650B-4BBD-4BA3-9987-831B7C366AFC}|ChatAppUI.csproj|solutionrelative:chatappui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6EE650B-4BBD-4BA3-9987-831B7C366AFC}|ChatAppUI.csproj|c:\\users\\felix\\source\\repos\\chatappui\\chatappui\\resources\\splash\\splash.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C6EE650B-4BBD-4BA3-9987-831B7C366AFC}|ChatAppUI.csproj|solutionrelative:resources\\splash\\splash.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6EE650B-4BBD-4BA3-9987-831B7C366AFC}|ChatAppUI.csproj|c:\\users\\felix\\source\\repos\\chatappui\\chatappui\\resources\\appicon\\appicon.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C6EE650B-4BBD-4BA3-9987-831B7C366AFC}|ChatAppUI.csproj|solutionrelative:resources\\appicon\\appicon.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6EE650B-4BBD-4BA3-9987-831B7C366AFC}|ChatAppUI.csproj|c:\\users\\felix\\source\\repos\\chatappui\\chatappui\\chatpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6EE650B-4BBD-4BA3-9987-831B7C366AFC}|ChatAppUI.csproj|solutionrelative:chatpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6EE650B-4BBD-4BA3-9987-831B7C366AFC}|ChatAppUI.csproj|c:\\users\\felix\\source\\repos\\chatappui\\chatappui\\tcpmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6EE650B-4BBD-4BA3-9987-831B7C366AFC}|ChatAppUI.csproj|solutionrelative:tcpmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,6 +50,45 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appicon.svg",
+              "DocumentMoniker": "C:\\Users\\felix\\source\\repos\\ChatAppUI\\ChatAppUI\\Resources\\AppIcon\\appicon.svg",
+              "RelativeDocumentMoniker": "Resources\\AppIcon\\appicon.svg",
+              "ToolTip": "C:\\Users\\felix\\source\\repos\\ChatAppUI\\ChatAppUI\\Resources\\AppIcon\\appicon.svg",
+              "RelativeToolTip": "Resources\\AppIcon\\appicon.svg",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKMSURBVDhPjZNLSFRhFMd/3507M/dKPsacsYelWGZZFFJRkdSmNrUoatMiKggSN2YFEUX3MvQiiBYWtFAyggoXPSGyhQuhFrXQFr7GMFOowcZMUO9MM3pPi9Eao6gf/Bcfh3PO/5yPo8jAsqxI5vtvKKXuhMPhK4jInIBlWRH5Bw0NDYOWZUVs264B0DILKEUXCCIpZOIi7uetpHpCxN8GiffU4rrThEIhXzgcXiEidbZtH/5ZQKTV\u002B72oItjSYfG5vxwneoX2/iW80dvxb4ji9D4BIBAIeBsbG4fSOXJWzSR7qpt9D\u002BvWndpTlNXL2HCQ28PXaIuVEB2Dmsp8DiZqyN35FAFiw19IJpPcbmrq0wCq7\u002BvHd5Y\u002B2rMy5y3OcBXmqtccq9rB/uUFKI/GzfZRPhRdBhEQIRgKUlxSAoAm0uqtWNB5Yu\u002Bier5\u002BWOoWbnxAwAwQzDao3lLIobX5ePxemiImroCIzFm\u002BztT7/CPLzi8ej\u002BVxdeyu1nJjgMR3FwDl0fD4dJRHozuWACStjM/TGDlZ50tNqHuxejo\u002B\u002BZPL8wwqCvxUFPhZFfBSbIBMJti0wJjpDpJRQXfjzr6uj9u\u002BtYysCWijA4OPqzeXpVLJtE010zS9cZDM1DTa9ASLmoaOnh4cEYaySsoa30T5Mp5kPD7Ni\u002B5Rtt7qofzqO553jqQHmHExi5p8RcRNsb6y7VWtnm1ecjUdcdM7QClwhQPl8zi3o\u002BiXdREMMwvbtvv0KYfmRJSBtvlVY93O6ujLlc8WdsYcdE1RmutlV3kO20tzcXFRohBFerQ/ccE6c11EJB53xIk7EndmNSnObxIRsSwrMucWUvh2AxiGiWmYGOassjB/0yxzzPzvOWfyAyvlXYiiBFoWAAAAAElFTkSuQmCC",
+              "WhenOpened": "2025-07-23T15:25:28.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "splash.svg",
+              "DocumentMoniker": "C:\\Users\\felix\\source\\repos\\ChatAppUI\\ChatAppUI\\Resources\\Splash\\splash.svg",
+              "RelativeDocumentMoniker": "Resources\\Splash\\splash.svg",
+              "ToolTip": "C:\\Users\\felix\\source\\repos\\ChatAppUI\\ChatAppUI\\Resources\\Splash\\splash.svg",
+              "RelativeToolTip": "Resources\\Splash\\splash.svg",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKMSURBVDhPjZNLSFRhFMd/3507M/dKPsacsYelWGZZFFJRkdSmNrUoatMiKggSN2YFEUX3MvQiiBYWtFAyggoXPSGyhQuhFrXQFr7GMFOowcZMUO9MM3pPi9Eao6gf/Bcfh3PO/5yPo8jAsqxI5vtvKKXuhMPhK4jInIBlWRH5Bw0NDYOWZUVs264B0DILKEUXCCIpZOIi7uetpHpCxN8GiffU4rrThEIhXzgcXiEidbZtH/5ZQKTV\u002B72oItjSYfG5vxwneoX2/iW80dvxb4ji9D4BIBAIeBsbG4fSOXJWzSR7qpt9D\u002BvWndpTlNXL2HCQ28PXaIuVEB2Dmsp8DiZqyN35FAFiw19IJpPcbmrq0wCq7\u002BvHd5Y\u002B2rMy5y3OcBXmqtccq9rB/uUFKI/GzfZRPhRdBhEQIRgKUlxSAoAm0uqtWNB5Yu\u002Bier5\u002BWOoWbnxAwAwQzDao3lLIobX5ePxemiImroCIzFm\u002BztT7/CPLzi8ej\u002BVxdeyu1nJjgMR3FwDl0fD4dJRHozuWACStjM/TGDlZ50tNqHuxejo\u002B\u002BZPL8wwqCvxUFPhZFfBSbIBMJti0wJjpDpJRQXfjzr6uj9u\u002BtYysCWijA4OPqzeXpVLJtE010zS9cZDM1DTa9ASLmoaOnh4cEYaySsoa30T5Mp5kPD7Ni\u002B5Rtt7qofzqO553jqQHmHExi5p8RcRNsb6y7VWtnm1ecjUdcdM7QClwhQPl8zi3o\u002BiXdREMMwvbtvv0KYfmRJSBtvlVY93O6ujLlc8WdsYcdE1RmutlV3kO20tzcXFRohBFerQ/ccE6c11EJB53xIk7EndmNSnObxIRsSwrMucWUvh2AxiGiWmYGOassjB/0yxzzPzvOWfyAyvlXYiiBFoWAAAAAElFTkSuQmCC",
+              "WhenOpened": "2025-07-23T15:25:16.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ChatAppUI",
+              "DocumentMoniker": "C:\\Users\\felix\\source\\repos\\ChatAppUI\\ChatAppUI\\ChatAppUI.csproj",
+              "RelativeDocumentMoniker": "ChatAppUI.csproj",
+              "ToolTip": "C:\\Users\\felix\\source\\repos\\ChatAppUI\\ChatAppUI\\ChatAppUI.csproj",
+              "RelativeToolTip": "ChatAppUI.csproj",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-23T15:23:09.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "ChatPage.xaml",
               "DocumentMoniker": "C:\\Users\\felix\\source\\repos\\ChatAppUI\\ChatAppUI\\ChatPage.xaml",
@@ -51,20 +102,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "C:\\Users\\felix\\source\\repos\\ChatAppUI\\ChatAppUI\\MainPage.xaml",
               "RelativeDocumentMoniker": "MainPage.xaml",
               "ToolTip": "C:\\Users\\felix\\source\\repos\\ChatAppUI\\ChatAppUI\\MainPage.xaml",
               "RelativeToolTip": "MainPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAADYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-07-23T14:34:23.897Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "MainPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\felix\\source\\repos\\ChatAppUI\\ChatAppUI\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "MainPage.xaml.cs",
@@ -77,7 +128,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "TcpManager.cs",
               "DocumentMoniker": "C:\\Users\\felix\\source\\repos\\ChatAppUI\\ChatAppUI\\TcpManager.cs",
               "RelativeDocumentMoniker": "TcpManager.cs",
@@ -90,13 +141,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "ChatPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\felix\\source\\repos\\ChatAppUI\\ChatAppUI\\ChatPage.xaml.cs",
               "RelativeDocumentMoniker": "ChatPage.xaml.cs",
               "ToolTip": "C:\\Users\\felix\\source\\repos\\ChatAppUI\\ChatAppUI\\ChatPage.xaml.cs",
               "RelativeToolTip": "ChatPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAgwAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-23T14:29:49.272Z",
               "EditorCaption": ""
