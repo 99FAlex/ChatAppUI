@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
+using System.Net;
 using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
@@ -19,13 +20,25 @@ namespace ChatAppUI
 
 
 
-        public async Task ConnectAsync(string ipAddress, int port)
+        public async Task ConnectAsync()
         {
             try
             {
-                await tcpClient.ConnectAsync(ipAddress, port);
-                stream = tcpClient.GetStream();
-                Debug.WriteLine("Connected to server.");
+                var path = FileSystem.Current.AppDataDirectory;
+                var fullpath = Path.Combine(path, "selectedServer.txt");
+                if (File.Exists(fullpath))
+                {
+                    string data = File.ReadAllText(fullpath);
+                    string[] serverdata = data.Split("\n");
+                    await tcpClient.ConnectAsync(serverdata[1], Convert.ToInt32(serverdata[2]));
+                    stream = tcpClient.GetStream();
+                    Debug.WriteLine("Connected to server.");
+                }
+                else
+                {
+                    Debug.WriteLine("selectedServer.txt not found");
+                }
+
             }
             catch (Exception e)
             {

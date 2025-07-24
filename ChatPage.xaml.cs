@@ -6,17 +6,19 @@ namespace ChatAppUI;
 public partial class ChatPage : ContentPage
 {
     TcpManager tcpManager = new TcpManager();
-    CancellationTokenSource cancellationTokenSource; // For stopping the receive loop
+    CancellationTokenSource cancellationTokenSource;
 
     public ChatPage()
     {
         InitializeComponent();
-        _ = ConnectAndStartReceiving(); // Start connection and listening when page is initialized
+        _ = ConnectAndStartReceiving(); 
+        Routing.RegisterRoute(nameof(Serverlist), typeof(Serverlist));
+
     }
 
     private async Task ConnectAndStartReceiving()
     {
-        await tcpManager.ConnectAsync("127.0.0.1", 8001); // Connect once
+        await tcpManager.ConnectAsync();
         await tcpManager.SendMessageAsync(TcpManager.name);
         StartReceivingLoop();
     }
@@ -33,10 +35,17 @@ public partial class ChatPage : ContentPage
                 {
                     MainThread.BeginInvokeOnMainThread(() =>
                     {
-                        onMessageReceived(message);
+                        if (message == "Error: Not connected")
+                        {
+                            goToMainPage();
+                        }
+                        else
+                        {
+                            onMessageReceived(message);
+
+                        }
                     });
                 }
-                // Add a small delay to prevent busy-waiting if messages are infrequent
                 await Task.Delay(100, cancellationTokenSource.Token);
             }
         }, cancellationTokenSource.Token);
@@ -49,7 +58,7 @@ public partial class ChatPage : ContentPage
         {
             await tcpManager.SendMessageAsync(messageToSend);
 
-            message.Text = string.Empty; // Clear input after sending
+            message.Text = string.Empty;
         }
     }
 
@@ -58,12 +67,15 @@ public partial class ChatPage : ContentPage
         MessageStackLayout.Add(new Label { Text = msg });
     }
 
-    // Call this when the page is closing or no longer needed
     protected override void OnDisappearing()
     {
         base.OnDisappearing();
-        cancellationTokenSource?.Cancel(); // Stop the receiving loop
+        cancellationTokenSource?.Cancel();
         cancellationTokenSource?.Dispose();
-        tcpManager.Disconnect(); // Disconnect from the server
+        tcpManager.Disconnect();
+    }
+    private async void goToMainPage()
+    {
+        await Shell.Current.GoToAsync(nameof(Serverlist));
     }
 }

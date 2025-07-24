@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ChatAppUI.Serverlist"
+             Title="Serverlist">
+    <Grid>
+        <Button Text="Back" BackgroundColor="Black" VerticalOptions="Start" HorizontalOptions="Start" Clicked="backToMainPage" Margin="10"/>
+
+        <Label Text="Server Connection" HorizontalOptions="Center" FontSize="Header" />
+        <ScrollView Margin="50,70,50,50">
+            <VerticalStackLayout x:Name="ServerStackLayout">
+                <Label x:Name="currently" Text="Currently selected: Official Server" FontSize="Medium"/>
+                <Frame x:Name="Offical" BorderColor="Black" Margin="0,20,0,0">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" NumberOfTapsRequired="1" />
+                    </Frame.GestureRecognizers>
+                    <Grid>
+                        <Label>Offical Server</Label>
+                        <Label HorizontalOptions="Center">IP: 127.0.0.1</Label>
+                        <Label HorizontalOptions="End">Port: 8001</Label>
+                    </Grid>
+
+                </Frame>
+
+
+
+            </VerticalStackLayout>
+            
+        </ScrollView>
+        <Button Clicked="removeServer" VerticalOptions="End" HorizontalOptions="Start" Text="Remove Server" Margin="20, 20,20,20" BackgroundColor="Black" />
+        <Button Clicked="switchAddServer" VerticalOptions="End" HorizontalOptions="End" Text="Add Server" Margin="20" BackgroundColor="Black" />
+       
+
+    </Grid>
+</ContentPage>

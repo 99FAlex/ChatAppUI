@@ -3,17 +3,18 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ChatAppUI.ChatPage"
              Title="ChatPage">
-    <Grid BackgroundColor="DarkGray">
+    <Grid >
         <Label x:Name="TestLabel" Text="This shows incoming messages"></Label>
-        <ScrollView Margin="33,40,30,100" BackgroundColor="LightGray">
+        <ScrollView Margin="33,40,30,100" BackgroundColor="DarkGray">
             <VerticalStackLayout x:Name="MessageStackLayout">
                 
             </VerticalStackLayout>
 
         </ScrollView>
 
-        <Entry x:Name="message" Placeholder="Message" VerticalOptions="End" HeightRequest="20" Margin="30,0,150,30" BackgroundColor="DimGrey" TextColor="AliceBlue"></Entry>
+        <Entry x:Name="message" Placeholder="Message" VerticalOptions="End" HeightRequest="20" Margin="30,0,150,30" BackgroundColor="LightGray" PlaceholderColor="DimGrey" TextColor="Black"></Entry>
 
-        <Button Clicked="onSend" Text="send" HorizontalOptions="{OnPlatform WinUI=End, Android=Fill}" VerticalOptions="End" Margin="{OnPlatform WinUI=30, Android=5}" />
+
+        <Button Clicked="onSend" Text="send" HorizontalOptions="{OnPlatform WinUI=End, Android=Fill}" VerticalOptions="End" Margin="{OnPlatform WinUI=30, Android=5}" MinimumWidthRequest="90" BackgroundColor="Black"/>
     </Grid>
 </ContentPage>

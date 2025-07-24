@@ -16,6 +16,7 @@ namespace ChatAppUI
                 });
 
 
+
 #if DEBUG
     		builder.Logging.AddDebug();
 #endif

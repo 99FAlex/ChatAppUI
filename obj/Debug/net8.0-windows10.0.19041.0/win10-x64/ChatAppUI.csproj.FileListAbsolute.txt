@@ -183,7 +183,6 @@ C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\bin\Debug\net8.0-windows10.0.190
 C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ChatAppUI.dll
 C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ChatAppUI.pdb
 C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri
-C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml
 C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Configuration.dll
 C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.DependencyInjection.dll
@@ -266,8 +265,15 @@ C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\obj\Debug\net8.0-windows10.0.190
 C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xbf
 C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\XamlSaveStateFile.xml
 C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\ChatAppUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png
+C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png
+C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png
+C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png
+C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png
 C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauisplash.stamp
 C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauifont.stamp
+C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf
+C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf
 C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png
 C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png
 C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png
@@ -347,4 +353,5 @@ C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\obj\Debug\net8.0-windows10.0.190
 C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\qualifiers.txt
 C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
+C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml
 C:\Users\felix\source\repos\ChatAppUI\ChatAppUI\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt

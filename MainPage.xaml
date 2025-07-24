@@ -7,7 +7,8 @@
         <Label x:Name="Error" BackgroundColor="#E98585" HeightRequest="40" WidthRequest="280"  IsVisible="False" VerticalOptions="Center" Margin="0, 0, 0, 290" />
         <!--VerticalOptions="Center"  Grid.Row="13" Grid.Column="4"-->
         <Entry x:Name="Username" Placeholder="Username"  Margin="70,0,70,150" VerticalOptions="Center" HorizontalOptions="Center" HeightRequest="50" WidthRequest="200" BackgroundColor="DimGrey"  TextColor="AliceBlue" PlaceholderColor="AliceBlue"/>
-        <Button Clicked="onSwitch" Text="Join" HorizontalOptions="Center" VerticalOptions="Center" HeightRequest="50" WidthRequest="200" Margin="{OnPlatform WinUI=30, Android=5}" />
+        <Button Clicked="onChatPageSwitch" Text="Join" HorizontalOptions="Center" VerticalOptions="Center" HeightRequest="50" WidthRequest="200" Margin="{OnPlatform WinUI=30, Android=5}" BackgroundColor="Black"/>
+        <Button Clicked="onServerListSwitch" HorizontalOptions="End" VerticalOptions="End" Text="Server" Margin="10" BackgroundColor="Black" />
     </Grid>
 
 
