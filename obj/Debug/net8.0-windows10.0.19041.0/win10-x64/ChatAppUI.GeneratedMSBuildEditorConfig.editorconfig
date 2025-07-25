@@ -54,6 +54,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = ChatAppUI.ServerlistPages.
 build_metadata.AdditionalFiles.TargetPath = ServerlistPages\AddServer.xaml
 build_metadata.AdditionalFiles.RelativePath = ServerlistPages\AddServer.xaml
 
+[C:/Users/felix/source/repos/ChatAppUI/ChatAppUI/ServerlistPages/RemoveServer.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ChatAppUI.ServerlistPages.RemoveServer.xaml
+build_metadata.AdditionalFiles.TargetPath = ServerlistPages\RemoveServer.xaml
+build_metadata.AdditionalFiles.RelativePath = ServerlistPages\RemoveServer.xaml
+
 [C:/Users/felix/source/repos/ChatAppUI/ChatAppUI/ServerlistPages/Serverlist.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ChatAppUI.ServerlistPages.Serverlist.xaml

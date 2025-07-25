@@ -7,6 +7,8 @@ namespace ChatAppUI;
 public partial class Serverlist : ContentPage
 {
 
+    private Boolean whileRemove = false;
+
     protected override void OnAppearing()
     {
         base.OnAppearing();
@@ -31,8 +33,8 @@ public partial class Serverlist : ContentPage
 
                     Grid grid = new Grid();
                     Label name = new Label() { Text = serverdata[0], HorizontalOptions = LayoutOptions.Start };
-                    Label adress = new Label() { Text = serverdata[1], HorizontalOptions = LayoutOptions.Center };
-                    Label port = new Label() { Text = serverdata[2], HorizontalOptions = LayoutOptions.End };
+                    Label adress = new Label() { Text = "IP: " + serverdata[1], HorizontalOptions = LayoutOptions.Center };
+                    Label port = new Label() { Text = "Port: " + serverdata[2], HorizontalOptions = LayoutOptions.End };
                     grid.Add(name);
                     grid.Add(adress);
                     grid.Add(port);
@@ -42,11 +44,30 @@ public partial class Serverlist : ContentPage
                 TapGestureRecognizer tapGestureRecognizer = new TapGestureRecognizer() { NumberOfTapsRequired = 1 };
                     tapGestureRecognizer.Tapped += (sender, e) =>
                     {
-                        var path = FileSystem.Current.AppDataDirectory;
-                        var fullpath = Path.Combine(path, "selectedServer.txt");
-                        currently.Text = "Currently selected: " + serverdata[0];
+                        if (whileRemove)
+                        {
+                            var path = FileSystem.Current.AppDataDirectory;
+                            var fullpath = Path.Combine(path, "serverlist.txt");
+                            var rawdata = File.ReadAllText(fullpath).Split("\nN");
+                            string dataToWrite;
 
-                        File.WriteAllText(fullpath, serverdata[0] + "\n" + serverdata[1] + "\n" + serverdata[2]);
+                            foreach(var data in rawdata)
+                            {
+                                var serverdata = data.Split("\n");
+                                if (serverdata[0].Equals(sender.))
+                            }
+
+                            currently.Text = "Currently selected: " + serverdata[0];
+                        }
+                        else
+                        {
+                            var path = FileSystem.Current.AppDataDirectory;
+                            var fullpath = Path.Combine(path, "selectedServer.txt");
+                            currently.Text = "Currently selected: " + serverdata[0];
+
+                            File.WriteAllText(fullpath, serverdata[0] + "\n" + serverdata[1] + "\n" + serverdata[2]);
+                        }
+
                         Debug.WriteLine(name.Text + " Clicked");
                     };
                     //gestureRecognizer.AddLogicalChild(gestureRecognizer);
@@ -64,6 +85,7 @@ public partial class Serverlist : ContentPage
 
     private void removeServer(object sender, EventArgs e)
     {
+        whileRemove = tr
         Debug.WriteLine("Coming Soon");
         //OnAppearing();
     }

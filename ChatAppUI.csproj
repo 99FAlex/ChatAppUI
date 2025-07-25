@@ -74,6 +74,9 @@
 	  <MauiXaml Update="ChatPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="ServerlistPages\RemoveServer.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="ServerlistPages\Serverlist.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

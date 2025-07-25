@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ChatAppUI.ServerlistPages.RemoveServer"
+             Title="RemoveServer">
+    <Grid>
+        <!--<Button Clicked="back" Text="Back" BackgroundColor="Black" VerticalOptions="Start" HorizontalOptions="Start"  Margin="10"/>
+        <VerticalStackLayout Margin="50">
+            <Label Text="Name" Margin="50, 50,0,0"/>
+            <Entry x:Name="name" Placeholder="Name" Margin="50, 0,50,0" Background="LightGray" PlaceholderColor="DimGrey"/>
+
+            <Label Text="Ip-Adress" Margin="50, 50,0,0"/>
+            <Entry x:Name="adress" Placeholder="Ip-Adress" Margin="50, 0,50,0" Background="LightGray" PlaceholderColor="DimGrey"/>
+
+            <Label Text="Port" Margin="50, 50,0,0"/>
+            <Entry x:Name="port" Placeholder="Port" Margin="50, 0,50,0" Background="LightGray" PlaceholderColor="DimGrey"/>
+            <Button Clicked="addServer" Margin="50" Text="Add to serverlist" BackgroundColor="Black"/>
+        </VerticalStackLayout>-->
+
+    </Grid>
+</ContentPage>

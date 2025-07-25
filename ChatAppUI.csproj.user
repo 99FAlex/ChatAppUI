@@ -24,6 +24,9 @@
     <MauiXaml Update="ChatPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="ServerlistPages\RemoveServer.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="ServerlistPages\Serverlist.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
